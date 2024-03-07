@@ -19,7 +19,9 @@ lado3 = int(input())
 # Equilátero
 if lado1 == lado2 == lado3:
     print('El triángulo es equilátero')
+# Isósceles
 elif lado1 == lado2 != lado3 or lado1 == lado3 != lado2 or lado2 == lado3 != lado1:
     print('El triángulo es isósceles')
+# Escaleno
 else:
     print('El triángulo es escaleno')
